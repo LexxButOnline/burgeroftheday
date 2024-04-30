@@ -23,12 +23,12 @@ export default function BurgerText() {
         <div className="border-2  border-red-900 bg-zinc-800 h-full w-full p-5 text-zinc-50">
 
             <div className=" tracking-wider text-center">
-                <div className="sketchy-font text-4xl md:text-5xl xl:text-8xl -mt-4 uppercase">Burger</div>
-                <div className="chalk-title text-xl  md:text-2xl xl:text-4xl -mt-3 md:-mt-4  ">of the Day</div>
+                <div className="font-sketchy text-4xl md:text-5xl xl:text-8xl -mt-4 uppercase">Burger</div>
+                <div className="font-chalkTitle text-xl  md:text-2xl xl:text-4xl -mt-3 md:-mt-4  ">of the Day</div>
                 <hr className="mx-5 xl:mx-10" />
             </div>
             <div className="flex flex-col flex-1 h-5/6 items-center justify-center">
-                <div className="mt-4 tracking-wide w-4/5 chalk-font md:mt-10 lg:mt-16 text-center basis-1/2 text-2xl md:text-4xl xl:text-5xl">
+                <div className="mt-4 tracking-wide w-4/5 font-chalkBody md:mt-10 lg:mt-16 text-center basis-1/2 text-2xl md:text-4xl xl:text-5xl">
                     {data.name}
                     <div className="mt-5 lg:mt-16 text-xl md:text-3xl xl:text-4xl tracking-wider">
                         {data.price}
