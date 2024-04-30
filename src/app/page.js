@@ -1,10 +1,10 @@
 import React from "react";
-import Burger from "@/components/Burger"
+import App from "@/components/App"
 
 export default function Page() {
   return (
     <main>
-      < Burger />
+      < App />
     </main >
   );
 }

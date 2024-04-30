@@ -3,12 +3,9 @@ import React, { useState, useEffect } from "react";
 
 
 
-function BurgerText() {
+export default function BurgerText() {
 
     const [data, setData] = useState([]);
-
-
-
 
     useEffect(() => {
         fetchBurgerData();
@@ -20,14 +17,6 @@ function BurgerText() {
             return burger;
         }).then((burgerInfo) => setData(burgerInfo)).catch(error => console.error(error));
     }
-
-
-
-
-
-
-
-
 
     return (
 
@@ -56,6 +45,3 @@ function BurgerText() {
 
     );
 }
-
-
-export default BurgerText;
