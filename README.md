@@ -9,11 +9,6 @@ This project uses the [Bob's Burgers API](https://www.bobsburgersapi.com/) to di
 - [@LexxButOnline](https://www.github.com/LexxButOnline)
 
 
-## Try It Now
-
-
-- [Burger of the Day App](https://burgeroftheday.netlify.app/)
-
 ## Made With
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
